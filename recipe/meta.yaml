@@ -10,7 +10,7 @@ source:
   sha256: 5abe3bbbd8e54f0fa3ec945291b7e8fa8cfd3cccc43718f8758430f94126e512
 
 build:
-  number: 2
+  number: 3
   skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('xcb-util', max_pin='x.x') }}
